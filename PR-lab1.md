@@ -27,6 +27,7 @@ Scopul este să implementați o aplicație [client-server](), deci
 următorul pas este stabilirea protocolului de comunicare între 
 client și server.
 
+#### Formatul mesajelor
 Pentru a ușura acest proces, se stabilește următorul format al mesajelor:
 - Comenzile de la client încep cu `/`
 - Comanda poate contine `A-Za-z0-9_`
@@ -42,11 +43,13 @@ Documentul trebuie să conțină:
 - Comenzile suportate de server
 - Exemple de răspuns la fiecare comandă
 
+#### Comenzile acceptate de server
 **Comenzile obligatorii care trebuie să le implementeze serverul:**
 - `/help` - răspunde cu o listă a comenzilor suportate și o descriere a fiecărei comenzi;
 - `/helo Text` - raspunde cu textul care a fost expediat ca paremetru<
-- + alte 3 comenzi cu funcțional diferit (e.g. timpul curent, generator de cifre, flip the coin etc)
+- alte 3 comenzi cu funcțional diferit (e.g. timpul curent, generator de cifre, flip the coin etc)
 
+#### Cerințe pentru sistem
 Cerințele de bază pentru aplicație sunt destul de simple:
 - O aplicație client care se conectează la server și transmite careva comenzi;
   - Comenzile sunt introduse de utilizator de la tastatură;

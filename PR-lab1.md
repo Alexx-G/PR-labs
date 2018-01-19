@@ -66,6 +66,17 @@ Cerințele de bază pentru aplicație sunt:
 - Să se utilizeze **doar** interfața BSD sockets oferită de limbaj/platformă.
 
 ### Sarcini adiționale (+1 pentru fiecare sarcină)
-- ...
-- ...
-- ...
+
+- Să se implementeze procesarea concurentă a mesajelor de la clienți de către server.
+  Serverul trebuie să fie capabil să proceseze concurent conexiunile de la mai mulți clienți.
+- Dacă serverul primește o comandă invalidă, însă există o altă [comandă similară](https://en.wikipedia.org/wiki/Levenshtein_distance) cu cea invalidă, 
+  serverul trebuie să returneze un mesaj care informează despre acea comandă alternativă validă.
+  
+  E.g. 
+  ```
+  >>> /hell
+  <<< Ouch! "/hell" is an invalid command. Did you mean "/helo <param>"?
+  ```
+- Dacă serverul primește o comandă specifică, el trebuie să transmită clientului un oarecare fișier (imagine, text file, pdf etc).
+  Clientul trebuie să salveze acest fișierul primit (păstrând extensia) și să afișeze calea absolută la locația salvată, sau să deschidă 
+  fișierul în previewer-ul suportat de OS.

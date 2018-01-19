@@ -76,8 +76,11 @@ Atît clientul, cît și serverul pot fi aplicații simple fără GUI.
 
 ### Sarcini adiționale (+1 pentru fiecare sarcină)
 
-- Să se implementeze procesarea concurentă a mesajelor de la clienți de către server.
+- Să se implementeze **procesarea concurentă** a mesajelor de la clienți de către server.
   Serverul trebuie să fie capabil să proceseze concurent conexiunile de la mai mulți clienți.
+  - Alternativă: Descrieți succint 2 modalități de procesare concurentă a conexiunilor multiple.
+    Comparați acele 2 metode și descrieți avantajele/dezavantajele.
+    În cazul unei analize complete, **implementarea procesării concurente nu este obligatorie**.
 - Dacă serverul primește o comandă invalidă, însă există o altă [comandă similară](https://en.wikipedia.org/wiki/Levenshtein_distance) cu cea invalidă, 
   serverul trebuie să returneze un mesaj care informează despre acea comandă alternativă validă.
   

@@ -7,7 +7,7 @@ protocolului de la nivelul de transport - TCP.
 
 - VCS (Version Control System) Git - vezi [info din procesul de susținere](submission-process.md);
 - Limbajul de programare: nu este restricționat. Însă să recomandă un limbaj dinamic cu REPL*.
-- Cunoștințe despre: modelul OSI, IP
+- Cunoștințe despre: [modelul OSI](https://en.wikipedia.org/wiki/OSI_model), IP
 
 Note:
 - Informație despre git și linkuri utile găsești în [procesul de sustinere](submission-process.md);
@@ -21,24 +21,27 @@ Note:
 ### Sarcina de bază (5 - 7)
 
 Primul pas logic este să studiați interfața oferită de limbaj 
-pentru lucru cu BSD sockets. # TODO: Add references
+pentru lucru cu [BSD sockets](http://en.wikipedia.org/wiki/Bsd_sockets).
 
-Scopul este să implementați o aplicație [client-server](), deci 
+Scopul este să implementați o aplicație [client-server](https://en.wikipedia.org/wiki/Client%E2%80%93server_model), deci 
 următorul pas este stabilirea protocolului de comunicare între 
 client și server.
 
 #### Formatul mesajelor
 Pentru a ușura acest proces, se stabilește următorul format al mesajelor:
 - Comenzile de la client încep cu `/`
-- Comanda poate contine `A-Za-z0-9_`
-  De exemplu: `/help`
-- Daca comanda accepta parametri, atunci dupa comanda urmeaza spatiu si restul datelor.
-  Exemplu: `/helo John`
+- Numele comenzii poate conține `A-Za-z0-9_`
+  **De exemplu:** `/help`
+- Daca comanda acceptă parametri, atunci după comanda urmeaza spațiu si restul datelor.
+  **Exemplu:** `/helo John`
 - Dacă serverul primește o comandă invalidă - se răspunde cu un mesaj informativ.
 
+##### Protocolul de comunicare
 Aceasta și este prima sarcină - să descrieți protocolul de comunicare între client și server.
 Acest document trebuie păstrat în repozitoriu și inclus în raport.
-Documentul trebuie să conțină:
+Documentul trebuie să fie plain-text, se recomandă utilizarea [markdown](https://guides.github.com/features/mastering-markdown/).
+
+Documentul cu specificația protocolului trebuie să conțină:
 - Formatul mesajelor
 - Comenzile suportate de server
 - Exemple de răspuns la fiecare comandă
@@ -50,8 +53,8 @@ Documentul trebuie să conțină:
 - alte 3 comenzi cu funcțional diferit (e.g. timpul curent, generator de cifre, flip the coin etc)
 
 #### Cerințe pentru sistem
-Cerințele de bază pentru aplicație sunt destul de simple:
-- O aplicație client care se conectează la server și transmite careva comenzi;
+Cerințele de bază pentru aplicație sunt:
+- O aplicație client care se conectează la server și permite transmiterea comenzilor;
   - Comenzile sunt introduse de utilizator de la tastatură;
   - Răspunsul primit de la server este afișat utilizatorului.
 - O aplicație server care:

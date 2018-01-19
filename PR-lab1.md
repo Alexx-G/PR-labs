@@ -65,6 +65,15 @@ Cerințele de bază pentru aplicație sunt:
 **Constrîngeri:**
 - Să se utilizeze **doar** interfața BSD sockets oferită de limbaj/platformă.
 
+#### Exemple
+
+Mai jos găsiți exemple de client și server simple implementate în Python (CPython) 3.
+În calitate de client, la fel poate fi utilizat și telnet pentru testare.
+Atît clientul, cît și serverul pot fi aplicații simple fără GUI.
+
+- [Exemplu de server în Python](examples/lab1_server.py)
+- [Exemplu de client în Python](examples/lab1_client.py)
+
 ### Sarcini adiționale (+1 pentru fiecare sarcină)
 
 - Să se implementeze procesarea concurentă a mesajelor de la clienți de către server.

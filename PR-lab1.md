@@ -33,7 +33,7 @@ Pentru a ușura acest proces, se stabilește următorul format al mesajelor:
 - Numele comenzii poate conține `A-Za-z0-9_`
   **De exemplu:** `/help`
 - Daca comanda acceptă parametri, atunci după comanda urmeaza spațiu si restul datelor.
-  **Exemplu:** `/helo John`
+  **Exemplu:** `/hello John`
 - Dacă serverul primește o comandă invalidă - se răspunde cu un mesaj informativ.
 
 ##### Protocolul de comunicare
@@ -49,7 +49,7 @@ Documentul cu specificația protocolului trebuie să conțină:
 #### Comenzile acceptate de server
 **Comenzile obligatorii care trebuie să le implementeze serverul:**
 - `/help` - răspunde cu o listă a comenzilor suportate și o descriere a fiecărei comenzi;
-- `/helo Text` - raspunde cu textul care a fost expediat ca paremetru<
+- `/hello Text` - raspunde cu textul care a fost expediat ca paremetru<
 - alte 3 comenzi cu funcțional diferit (e.g. timpul curent, generator de cifre, flip the coin etc)
 
 #### Cerințe pentru sistem
@@ -87,7 +87,7 @@ Atît clientul, cît și serverul pot fi aplicații simple fără GUI.
   E.g. 
   ```
   >>> /hell
-  <<< Ouch! "/hell" is an invalid command. Did you mean "/helo <param>"?
+  <<< Ouch! "/hell" is an invalid command. Did you mean "/hello <param>"?
   ```
 - Dacă serverul primește o comandă specifică, el trebuie să transmită clientului un oarecare fișier (imagine, text file, pdf etc).
   Clientul trebuie să salveze acest fișierul primit (păstrând extensia) și să afișeze calea absolută la locația salvată, sau să deschidă 

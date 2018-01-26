@@ -6,7 +6,7 @@ Also, here you can find tasks with detailed description for all labs.
 For the submission process check out the file [submission-process.md](submission-process.md).
 
 And a brief description of the labs you can find in next docs:
-- [PR-lab1.md](PR-lab1.md)
+- [Lab1.md](lab1.md)
 
 
 Thanks to [BestMujik](https://github.com/BestMujik/) for the LaTeX template.

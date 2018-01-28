@@ -7,6 +7,7 @@ For the submission process check out the file [submission-process.md](submission
 
 And a brief description of the labs you can find in next docs:
 - [Lab1.md](lab1.md)
+- [Lab5.md](lab5.md)
 
 
 Thanks to [BestMujik](https://github.com/BestMujik/) for the LaTeX template.

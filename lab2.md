@@ -101,7 +101,7 @@ device_id;sensor_type;value
 ```
 
 Here's what functionality your app must offer:
-1. Request your secret key at `<TODO: URL>`, in response you'll receive a list of URLs (for each device)
+1. Request your secret key at `https://desolate-ravine-43301.herokuapp.com/`, in response you'll receive a list of URLs (for each device)
 2. Using your secret key, request data from all devices concurrently
 3. If you get an error related to your access key, go back to **step 1** and retry
 4. Parse data from all devices

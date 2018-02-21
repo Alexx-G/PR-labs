@@ -26,9 +26,9 @@ You've got a simple sketch from the client.
 
 
 There is some info about the legacy system you managed to get from your client:
-- Categories URL `https://evil-legacy-service.herokuapp.com/api/v101/orders/`
-- Orders URL `https://evil-legacy-service.herokuapp.com/api/v101/categories/`
-- The client said that he had found a mysterious "key" `<TODO>` for the legacy system
+- Categories URL `https://evil-legacy-service.herokuapp.com/api/v101/categories/`
+- Orders URL `https://evil-legacy-service.herokuapp.com/api/v101/orders/`
+- The client said that he had found a mysterious "key" `55193451-1409-4729-9cd4-7c65d63b8e76` for the legacy system
 
 **Note:** The legacy system isn't documented properly (all you know about it - URL and that it must return CSV), 
 so you need to read about HTTP and discover what additional info you may need to supply to get a response with requested data.

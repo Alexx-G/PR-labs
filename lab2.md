@@ -12,6 +12,12 @@ Study OSI model, HTTP and implement a client app which can do multiple HTTP requ
 
 ## Tasks
 
+There are 2 variants of this lab:
+- [Report Generator](#report-generator)
+- [Metrics Aggregator](#metrics-aggregator)
+
+You have to choose and implement only one of them.
+
 ### Report Generator
 
 There's a legacy system your new client want to extend (without access to its source code).

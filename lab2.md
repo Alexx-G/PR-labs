@@ -116,9 +116,11 @@ Here's what functionality your app must offer:
 ```
 Temperature:
 Device 123 - 100°C
+Device 789 - 200°C
 
 Humidity:
 Device 312 - 0.5
+Device 7 - 0.33
 
 Alien Presence:
 Device 132 - 0 (No aliens detected)

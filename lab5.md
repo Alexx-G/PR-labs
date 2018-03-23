@@ -71,8 +71,8 @@ Mai jos găsiți exemple de client și server simple implementate în Python (CP
 În calitate de client, la fel poate fi utilizat și telnet pentru testare.
 Atît clientul, cît și serverul pot fi aplicații simple fără GUI.
 
-- [Exemplu de server în Python](examples/lab1_server.py)
-- [Exemplu de client în Python](examples/lab1_client.py)
+- [Exemplu de server în Python](examples/lab5_server.py)
+- [Exemplu de client în Python](examples/lab5_client.py)
 
 ### Sarcini adiționale (+1 pentru fiecare sarcină)
 

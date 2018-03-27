@@ -42,14 +42,17 @@ Implement a simple mail client which offers the following features:
 - If you implemented previous task using POP3 protocol, migrate the app to IMAP;
 - Allow to send e-mail with attachments (any file, at least 1 attachment);
 - If an e-mail is in HTML format, either display it using a WebView or send as file and open in browser;
+- Implement drafts (synchronized with the e-mail server)
 
 ### Notifications and search (9)
 
 - Check in background for new messages and display a notification (show pop-up and/or play a sound) when there's a new message;
-- Add search feature (e.g. find messages which contain a <keyword> in subject or sender)
+- Add search feature (e.g. find messages which contain a <keyword> in subject or sender).
+- Add "remember me" option to the login screen (store passwords **securely**).
 
 ### UX improvements (10)
 
 - "Undo" button - allow to undo sending a message after user sent it (implementation is up to you);
 - Implement pagination for messages (e.g. display 10 msg per page with next/prev buttons)
 - Allow basic formatting (bold, italic etc) for a new email.
+- If there's no internet connection, enqueue messages and send them later.

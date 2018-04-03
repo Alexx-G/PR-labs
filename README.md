@@ -7,8 +7,8 @@ For the submission process check out the file [submission-process.md](submission
 
 And a brief description of the labs you can find in next docs:
 - [Lab1.md](lab1.md)
-- [Lab2.md](lab2.md)
-- [Lab3.md](lab3.md)
+- [Lab2-3.md](lab2-3.md)
+- [Lab4.md](lab4.md)
 - [Lab5.md](lab5.md)
 
 

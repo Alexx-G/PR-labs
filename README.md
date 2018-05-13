@@ -10,6 +10,7 @@ And a brief description of the labs you can find in next docs:
 - [Lab2-3.md](lab2-3.md)
 - [Lab4.md](lab4.md)
 - [Lab5.md](lab5.md)
+- [Lab6.md](lab6.md)
 
 
 Thanks to [BestMujik](https://github.com/BestMujik/) for the LaTeX template.
